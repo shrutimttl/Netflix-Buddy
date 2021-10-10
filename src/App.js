@@ -1,11 +1,12 @@
-// import "./App.css";
+import React from 'react';
+import Home from './Home/index';
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1>App</h1>
+      <Home />
     </>
-  );
+  )
 }
 
 export default App;
